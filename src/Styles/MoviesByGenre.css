@@ -1,0 +1,51 @@
+.movies-by-genre {
+  padding: 20px;
+}
+
+.genre-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.movie-image {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.movie-details {
+  flex: 1;
+}
+
+.movie-details h3 {
+  margin: 0 0 10px;
+}
+
+.movie-details p {
+  margin: 0;
+}
+
+.genre-title {
+  color: rgb(182, 69, 69); /* Red color for the text */
+  font-size: 2em; /* Larger font size for emphasis */
+  font-weight: bold; /* Bold text */
+  text-align: center; /* Centered text */
+  margin: 20px 0; /* Space around the title */
+}
+
+.genre-title::first-letter {
+  text-transform: capitalize; /* Capitalize the first letter */
+}

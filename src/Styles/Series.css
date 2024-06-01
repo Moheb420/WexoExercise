@@ -1,0 +1,53 @@
+.back-button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.series-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.serie {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.serie h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.serie p {
+  margin-bottom: 10px;
+}
+
+.serie img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.serie ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.serie ul li {
+  margin-bottom: 5px;
+}

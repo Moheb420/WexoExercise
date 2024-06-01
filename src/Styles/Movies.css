@@ -1,0 +1,50 @@
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #db3406;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.movie p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.movie img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.movie ul {
+  padding: 0;
+  margin: 0;
+}
+
+.movie ul li {
+  list-style-type: none;
+  font-size: 14px;
+}
+.back-button {
+  font-size: 16px;
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+  background-color: #ea685f;
+  border: none;
+  border-radius: 5px;
+}
